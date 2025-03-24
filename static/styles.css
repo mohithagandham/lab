@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 200px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0;
+}
