@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-@app.route('/register', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])  # Change '/register' to '/'
 def register():
     if request.method == 'POST':
         name = request.form.get('name')
